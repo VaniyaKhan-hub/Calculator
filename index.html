@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="main"> -->
+    <center>
+        <h1 class="heading">CALCULATOR</h1>
+    <div class="calculator">
+        <!-- <div class="display"> -->
+            <input type="text" id="result" class="display" disabled>
+        <!-- </div> -->
+        <div class="buttons">
+            <button class="clr" onclick="clearResult()()">AC</button>
+            <button class="clr" onclick="deleteLast()">DEL</button>
+            <button class="clr" onclick="setOperator('%')">%</button>
+            <button class="clr" onclick="setOperator('/')">/</button>
+            <button onclick="getvalue('7')">7</button>
+            <button onclick="getvalue('8')">8</button>
+            <button onclick="getvalue('9')">9</button>
+            <button class="clr" onclick="setOperator('*')">*</button>
+            <button onclick="getvalue('4')">4</button>
+            <button onclick="getvalue('5')">5</button>
+            <button onclick="getvalue('6')">6</button>
+            <button class="clr" onclick="setOperator('-')">-</button>
+            <button onclick="getvalue('1')">1</button>
+            <button onclick="getvalue('2')">2</button>
+            <button onclick="getvalue('3')">3</button>
+            <button class="clr" onclick="setOperator('+')">+</button>
+            <button onclick="getvalue('0')">0</button>
+            <button onclick="getvalue('00')">00</button>
+            <button onclick="getvalue('.')">.</button>
+            <button class="clr" onclick="result()">=</button>
+        </div>
+    </div>
+</center>
+<!-- </div> -->
+
+
+<script src="./script.js"></script>
+</body>
+
+</html>
